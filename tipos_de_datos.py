@@ -88,8 +88,8 @@ al 23 (en orden invertido), saltandose de a 1 elemento (49, 47, 45 , etc) de la
 lista `apellidos_list`.
 """
 
-apellidos_tuple =apellidos_list[49:23:-2]
-#print(apellidos_tuple)
+apellidos_tuple = apellidos_list[49:22:-1]
+print(apellidos_tuple)
 
 
 """Crear variable `apellidos_list2` que contenga una copia de `apellidos_tuple` 
